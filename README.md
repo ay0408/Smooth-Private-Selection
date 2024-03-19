@@ -4,7 +4,7 @@ We propose the first mechanism for differentially private selection using the co
 
 This page contains Python codes of our experiments on accuracy, rank error, and run time.
 
-We pre-evaluated the value of ${\beta}$ for our mechanism in "beta_evaluation.ipynb".
+We pre-evaluated the value of $l \cdot {\beta}$ for our mechanism in "beta_evaluation.ipynb".
 
 In "Comparison with existing methods", we compared our SPS with two existing ${\it global\ sensitivity}$-based mechanisms (the exponential mechanism (EM) and the permute-and-flip (PF)).
 

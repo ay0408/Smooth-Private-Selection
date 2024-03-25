@@ -14,7 +14,7 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 
 ・Developing an optimal method for determining the values of $k$ and $l$ that provide the highest accuracy for each analysis data. (This will also be important in constructing algorithms for numeric queries.)
 
-・Conducting general theoretical analysis of our mechanism given the characteristics of the data, and clarifying conditions for SPS to outperform EM and PF.
+・Conducting general theoretical analysis of our mechanism (including our methods for computing ${\it smooth\ sensitivity}$ and ${\it smooth\ upper\ bound}$ ) given the characteristics of the data, and clarifying conditions for SPS to outperform EM and PF.
 
 ・Exploring possible noise distributions with a density function other than $h(z) \propto \frac{1}{1+|z|^\gamma}$.
 

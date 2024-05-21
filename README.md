@@ -20,7 +20,7 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 
 ・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$.
 
-・Integrating our mechanism with the joint approach [[Gillenwater et al., 2022](https://proceedings.mlr.press/v162/gillenwater22a.html)] and the local dampening mechanism [[Farias et al., 2023](https://link.springer.com/article/10.1007/s00778-022-00774-w)], while developing efficient algorithms for computing ${\it smooth\ sensitivity}$ and considering $(\epsilon,\delta)$-differential privacy.
+・Integrating our mechanism with the joint approach [[Gillenwater et al., 2022](https://proceedings.mlr.press/v162/gillenwater22a.html)] and the local dampening mechanism [[Farias et al., 2023](https://link.springer.com/article/10.1007/s00778-022-00774-w)], while considering $(\epsilon,\delta)$-differential privacy.
 
 ・Is it possible to satisfy differential privacy while adding noise of different scales for each $r \in \mathcal{R}$? (In our mechanism, the noise part is expressed by the same formula for all $r$. Can we make it $r$-dependent to improve the accuracy?)
 

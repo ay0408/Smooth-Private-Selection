@@ -21,7 +21,7 @@ For datasets with large $m$, there is little advantage of our method because $\m
 
 ・Exploring possible noise distributions with a density function other than $h(z) \propto \frac{1}{1+|z|^\gamma}$.
 
-・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$. (or Exploring the bounds of $\beta$ where {\it smooth\ sensitivity} can be ontained in an efficient manner.)
+・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$. (or Exploring the bounds of $\beta$ where ${\it smooth\ sensitivity}$ can be ontained in an efficient manner.)
 
 ・Integrating our mechanism with the joint approach [[Gillenwater et al., 2022](https://proceedings.mlr.press/v162/gillenwater22a.html)] and the local dampening mechanism [[Farias et al., 2023](https://link.springer.com/article/10.1007/s00778-022-00774-w)], while considering $(\epsilon,\delta)$-differential privacy.
 

@@ -10,6 +10,9 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 
 "Effects of gamma" provides an evaluation of suitable $\gamma$ for the SPS.
 
+## Importante Notes
+For datasets with large $m$, there is little advantage of our method because $\max_r S(x,r) \simeq GS_{u,\mathcal{R}}$. This is an important future issue, but in this study, we demonstrate that our methods can provide high utility at least when the number of candidates $m$ is limited. Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
+
 ## Future Directions
 
 ・Developing an optimal method for determining the values of $k$ and $l$ that provide the highest accuracy for each analysis data. (This will also be important in constructing algorithms for numeric queries.)
@@ -18,7 +21,7 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 
 ・Exploring possible noise distributions with a density function other than $h(z) \propto \frac{1}{1+|z|^\gamma}$.
 
-・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$.
+・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$. (or Exploring the bounds of $\beta$ where {\it smooth\ sensitivity} can be ontained in an efficient manner.)
 
 ・Integrating our mechanism with the joint approach [[Gillenwater et al., 2022](https://proceedings.mlr.press/v162/gillenwater22a.html)] and the local dampening mechanism [[Farias et al., 2023](https://link.springer.com/article/10.1007/s00778-022-00774-w)], while considering $(\epsilon,\delta)$-differential privacy.
 

@@ -6,7 +6,7 @@ This page contains Python codes of our experiments on accuracy, rank error, and 
 
 We pre-evaluated the value of $l \cdot {\beta}$ for our mechanism in "beta_evaluation.ipynb".
 
-In "Comparison with existing methods", we compared our SPS with two existing ${\it global\ sensitivity}$-based mechanisms (the exponential mechanism (EM) and the permute-and-flip (PF)).
+In "Comparison with existing methods", we compared our SPS with two existing ${\it global\ sensitivity}$-based mechanisms (the exponential mechanism (EM) and the permute-and-flip (PF)). We also provide the results on Rank Error, which was calculated as $\mathrm{RE} = t - 1$, where $t$ denotes the true rank of the extracted data.
 
 "Effects of gamma" provides an evaluation of suitable $\gamma$ for the SPS.
 

@@ -10,6 +10,8 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 
 "Effects of gamma" provides an evaluation of suitable $\gamma$ for the SPS.
 
+In Supplements.pdf, we provide the omitted proofs in the main paper.
+
 ## Importante Notes
 For datasets with large $m$, there is little advantage of our method because $\max_r S(x,r) \simeq GS_{u,\mathcal{R}}$. This is an important future issue, but in this study, we demonstrate that our methods can provide high utility at least when the number of candidates $m$ is limited. Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
 

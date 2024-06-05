@@ -31,7 +31,7 @@ For datasets with large $m$, there is little advantage of our method because $\m
 
 ## Note
 
-For details of our methods and discussion, please contact me.
+For details of our methods and discussion, please see our paper entitled "Differentially Private Selection using Smooth Sensitivity".
 
 ### Contact
 Akito Yamamoto

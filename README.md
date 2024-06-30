@@ -13,14 +13,10 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 In Supplements.pdf, we provide the omitted proofs in the main paper.
 
 ## Importante Notes
-This study is not specialized for any particular analysis purpose, but rather aims to enhance the basic theory and mechanism regarding ${\it smooth\ sensitivity}$. In particular, this is the first study on private selection using ${smooth \ sensitivity}$, and we expect the research to expand in the future (cf. Future Directions below).  
+This study is not specialized for any particular analysis purpose, but rather aims to enhance the basic theory and mechanisms regarding ${\it smooth\ sensitivity}$. In particular, this is the first study on private selection using ${smooth \ sensitivity}$, and we expect the research to widely expand in the future (cf. Future Directions below).  
 In our experiments, we took the case of employing genome statistics as a score function for one example, and showed that the proposed method (SPS) does have the potential to provide higher accuracy than existing ${\it global \ sensitivity}$-based methods. Certainly, depending on the score function and data characteristics, ${\it global\ sensitivity}$-based methods may be superior (cf. discussion in Section V); however, in terms of increasing the possibilities for better score functions and options for differentially private selection mechanisms, this study will have a significant impact.
 
-
-
 ## Future Directions
-
-・For datasets with a large $m$, there will be less advantage of our method because $\max_r S(x,r)$ (in the SPS) becomes closer to $GS_{u,\mathcal{R}}$. Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
 
 ・Developing an optimal method for determining the values of $k$ and $l$ that provide the highest accuracy for each analysis data. (This will also be important in constructing algorithms for numeric queries.)
 
@@ -32,7 +28,8 @@ In our experiments, we took the case of employing genome statistics as a score f
 
 ・Integrating our mechanism with the joint approach [[Gillenwater et al., 2022](https://proceedings.mlr.press/v162/gillenwater22a.html)] and the local dampening mechanism [[Farias et al., 2023](https://link.springer.com/article/10.1007/s00778-022-00774-w)], while considering $(\epsilon,\delta)$-differential privacy.
 
-・Is it possible to satisfy differential privacy while adding noise of different scales for each $r \in \mathcal{R}$? (In our mechanism, the noise part is expressed by the same formula for all $r$. Can we make it $r$-dependent to improve the accuracy?)
+・For datasets with a large $m$, there will be less advantage of our method because $\max_r S(x,r)$ (in the SPS) becomes closer to $GS_{u,\mathcal{R}}$. Using this study as a starting point, we intend to develop methods that are valuable even for large datasets.    
+← Is it possible to satisfy differential privacy while adding noise of different scales for each $r \in \mathcal{R}$? (In our mechanism, the noise part is expressed by the same formula for all $r$. Can we make it $r$-dependent to improve the accuracy?)
 
 ## Note
 

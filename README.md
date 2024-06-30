@@ -13,9 +13,14 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 In Supplements.pdf, we provide the omitted proofs in the main paper.
 
 ## Importante Notes
-For datasets with large $m$, there is little advantage of our method because $\max_r S(x,r) \simeq GS_{u,\mathcal{R}}$. This is an important future issue, but in this study, we demonstrate that our methods can provide high utility at least when the number of candidates $m$ is limited. Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
+This study is not specialized for any particular analysis purpose, but rather aims to enhance the basic theory and mechanism regarding ${\it smooth\ sensitivity}$. In particular, this is the first study on private selection using ${smooth \ sensitivity}$, and we expect the research to expand in the future (cf. Future Directions below).  
+In our experiments, we took the case of employing genome statistics as a score function for one example, and showed that the proposed method (SPS) does have the potential to provide higher accuracy than existing ${\it global \ sensitivity}$-based methods. Certainly, depending on the score function and data characteristics, ${\it global\ sensitivity}$-based methods may be superior (cf. discussion in Section V); however, in terms of increasing the possibilities for better score functions and options for differentially private selection mechanisms, this study will have a significant impact.
+
+
 
 ## Future Directions
+
+・For datasets with large $m$, there is little advantage of our method because $\max_r S(x,r) \simeq GS_{u,\mathcal{R}}$.　Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
 
 ・Developing an optimal method for determining the values of $k$ and $l$ that provide the highest accuracy for each analysis data. (This will also be important in constructing algorithms for numeric queries.)
 

@@ -20,7 +20,7 @@ In our experiments, we took the case of employing genome statistics as a score f
 
 ## Future Directions
 
-・For datasets with large $m$, there is little advantage of our method because $\max_r S(x,r) \simeq GS_{u,\mathcal{R}}$.　Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
+・For datasets with a large $m$, there will be less advantage of our method because $\max_r S(x,r)$ (in the SPS) becomes closer to $GS_{u,\mathcal{R}}$. Using this study as a starting point, we intend to develop methods that are valuable even for large datasets while extending our Theorems 2 and 3.
 
 ・Developing an optimal method for determining the values of $k$ and $l$ that provide the highest accuracy for each analysis data. (This will also be important in constructing algorithms for numeric queries.)
 

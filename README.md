@@ -23,7 +23,7 @@ In our experiments, we took the case of employing genome statistics as a score f
 ・Conducting general theoretical analysis of our mechanism (including our methods for computing ${\it smooth\ sensitivity}$ and ${\it smooth\ upper\ bound}$ ) given the characteristics of the data, and clarifying conditions for SPS to outperform EM and PF.
 
 ・Exploring possible noise distributions with a density function other than $h(z) \propto \frac{1}{1+|z|^\gamma}$.  
-← Are there any cases where $\alpha$ and $\beta$ in the ${\it admissible}$ property cannot be represented as linear functions of $\epsilon$? / Given functions $\alpha$ and $\beta$, can we find an $(\alpha, \beta)$- ${\it admissible}$ distribution?
+← Are there any cases where $\alpha$ and $\beta$ in the ${\it admissible}$ property cannot be represented as linear functions of $\epsilon$? (I assume that the answer is no.) / Given functions $\alpha$ and $\beta$, can we find an $(\alpha, \beta)$- ${\it admissible}$ distribution?
 
 ・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$. (And exploring the bounds of $\beta$ where ${\it smooth\ sensitivity}$ can be obtained in an efficient manner.)
 

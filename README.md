@@ -23,7 +23,7 @@ In our experiments, we took the case of employing genome statistics as a score f
 ・Conducting general theoretical analysis of our mechanism (including our methods for computing ${\it smooth\ sensitivity}$ and ${\it smooth\ upper\ bound}$ ) given the characteristics of the data, and clarifying conditions for SPS to outperform EM and PF.
 
 ・Exploring possible noise distributions with a density function other than $h(z) \propto \frac{1}{1+|z|^\gamma}$ (under $\epsilon$-differential privacy).  
-e.g.) For any $k > 1$ and $l > 0$, the distribution with density $h(z) \propto \frac{1}{|z|^k + l}$ should be $\left( \frac{l}{2 \cdot \left( (k-1) \cdot l \right)^{\frac{k-1}{k}}} \cdot \epsilon, \ \frac{1}{2 (k-1)} \cdot \epsilon \right)$- ${\it admissible}$. (Detailed analyses on this distribution will be provided in a separate paper.)  
+e.g.) For any $k > 1$ and $l > 0$, the distribution with density $h(z) \propto \frac{1}{|z|^k + l}$ should be $\left( \frac{l^{1/k}}{2 \cdot (k-1)^{\frac{k-1}{k}}} \cdot \epsilon, \ \frac{1}{2 (k-1)} \cdot \epsilon \right)$- ${\it admissible}$. (Detailed analyses on this distribution will be provided in a separate paper.)  
 ← Are there any cases where $\alpha$ and $\beta$ in the ${\it admissible}$ property cannot be represented as linear functions of $\epsilon$? / Given functions $\alpha$ and $\beta$, can we find an $(\alpha, \beta)$- ${\it admissible}$ distribution?
 
 ・Developing efficient algorithms for obtaining ${\it smooth\ sensitivity}$ (not ${\it smooth\ upper\ bound}$) for any $\beta$. (And exploring the bounds of $\beta$ where ${\it smooth\ sensitivity}$ can be obtained in an efficient manner.)

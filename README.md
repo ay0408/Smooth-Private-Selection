@@ -35,7 +35,7 @@ e.g.) For any $k > 1$ and $l > 0$, the distribution with density $h(z) \propto \
 
 ## Note
 
-For details of our methods and discussion, please see our paper entitled "Differentially Private Selection using Smooth Sensitivity" presented at IEEE IPCCC 2024 (arXiv: http://arxiv.org/abs/2410.10187).
+For details of our methods and discussion, please see our paper entitled "Differentially Private Selection using Smooth Sensitivity" (https://doi.org/10.1109/IPCCC59868.2024.10850477) presented at IEEE IPCCC 2024.
 
 ### Contact
 Akito Yamamoto

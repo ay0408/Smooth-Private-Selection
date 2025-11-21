@@ -13,9 +13,9 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 In Supplements.pdf, we provide the omitted proofs in the main paper.
 
 ## Important Issue (2025/11/21)
-Theorem 3 in the original paper is wrong. Correctly, even when the noise is one-sided, the mechanism's privacy guarantee is $\left( k + \frac{|\mathcal{R}|}{2} \cdot l \right)$-differential privacy. We revised Supplements.pdf accordingly.
+**Theorem 3 in the original paper is wrong. Correctly, even when the noise is one-sided, the mechanism's privacy guarantee is $\left( k + \frac{|\mathcal{R}|}{2} \cdot l \right)$-differential privacy. We revised Supplements.pdf accordingly.**
 
-Consequently, the true accuracy for the SPS (IV) and (II) cases in the experiments should not be as good as the results presented in the paper. (Nevertheless, it remains true that the SPS has the potential to provide higher accuracy than existing global sensitivity-based mechanisms.) Regarding this issue, we will revisit the discussion in our next paper and also propose a new mechanism that outperforms the SPS.
+**Consequently, the true accuracy for the SPS (IV) and (II) cases in the experiments should not be as good as the results presented in the paper. (Nevertheless, it remains true that the SPS has the potential to provide higher accuracy than existing global sensitivity-based mechanisms.) Regarding this issue, we will revisit the discussion in our next paper and also propose a new mechanism that outperforms the SPS.**
 
 ## Important Notes
 This study is not specialized for any particular analysis purpose, but rather aims to enhance the basic theory and mechanisms regarding ${\it smooth\ sensitivity}$. In particular, this is the first study on private selection using ${smooth \ sensitivity}$, and we expect the research to widely expand in the future (cf. Future Directions below).  

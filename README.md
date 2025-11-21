@@ -12,7 +12,12 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 
 In Supplements.pdf, we provide the omitted proofs in the main paper.
 
-## Importante Notes
+## Important Issue (2025/11/21)
+Theorem 3 in the original paper is wrong. Correctly, even when the noise is one-sided, the mechanism's privacy guarantee is $\left( k + \frac{|\mathcal{R}|}{2} \cdot l \right)$-differential privacy. We revised Supplements.pdf accordingly.
+
+Consequently, the true accuracy for the SPS (IV) and (II) cases in the experiments should not be as good as the results presented in the paper. (Nevertheless, it remains true that the SPS has the potential to provide higher accuracy than existing global sensitivity-based mechanisms.) Regarding this issue, we will revisit the discussion in our next paper and also propose a new mechanism that outperforms the SPS.
+
+## Important Notes
 This study is not specialized for any particular analysis purpose, but rather aims to enhance the basic theory and mechanisms regarding ${\it smooth\ sensitivity}$. In particular, this is the first study on private selection using ${smooth \ sensitivity}$, and we expect the research to widely expand in the future (cf. Future Directions below).  
 In our experiments, we took the case of employing genome statistics as a score function for one example, and showed that the proposed method (SPS) does have the potential to provide higher accuracy than existing ${\it global \ sensitivity}$-based methods. Certainly, depending on the score function and data characteristics, ${\it global\ sensitivity}$-based methods may be superior (cf. discussion in Section V); however, in terms of increasing the possibilities for better score functions and options for differentially private selection mechanisms, this study will have a significant impact.
 

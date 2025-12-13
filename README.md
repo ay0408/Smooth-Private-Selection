@@ -13,7 +13,7 @@ In "Comparison with existing methods", we compared our SPS with two existing ${\
 In Supplements.pdf, we provide the omitted proofs in the main paper.
 
 ## Important Issue (2025/12/13)
-**Theorem 3 in the original paper is wrong; that is, the differential privacy guarantee is larger than $\left(\left( k + \frac{|\mathcal{R}|-1}{2} \cdot l \right) \cdot \epsilon\right)$. We revised Supplements.pdf accordingly. In the revised document, we show that the (upper bound of) differential privacy guarantee value is $\left(\left( k + \frac{|\mathcal{R}|}{2} \cdot l \right) \cdot \epsilon\right)$. However, the true value should be less than that and indeed superior to that achieved by the mechanism with two-sided noise.**
+**Theorem 3 in the original paper is wrong; that is, the differential privacy guarantee is larger than $\left(\left( k + \frac{|\mathcal{R}|-1}{2} \cdot l \right) \cdot \epsilon\right)$. We revised Supplements.pdf accordingly. In the revised document, we state that the (upper bound of) differential privacy guarantee value is $\left(\left( k + \frac{|\mathcal{R}|}{2} \cdot l \right) \cdot \epsilon\right)$. However, the true value should be less than that and indeed superior to that achieved by the mechanism with two-sided noise.**
 
 **Consequently, the true accuracy for the SPS (IV) and (II) cases in the experiments should not be as good as the results presented in the paper. (Nevertheless, it remains true that the SPS has the potential to provide higher accuracy than existing global sensitivity-based mechanisms.) Regarding this issue, we will revisit the discussion in our next paper and also propose a new mechanism that outperforms the SPS.**
 

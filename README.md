@@ -42,6 +42,9 @@ e.g.) For any $k > 1$ and $l > 0$, the distribution with density $h(z) \propto \
 
 For details of our methods and discussion, please see our paper entitled "Differentially Private Selection using Smooth Sensitivity" (https://doi.org/10.1109/IPCCC59868.2024.10850477) presented at IEEE IPCCC 2024.
 
+Errata:  
+・Theorem 6, "For any $\gamma > 1$" should be "For any $\gamma \geq 2$".
+
 ### Contact
 Akito Yamamoto
 
